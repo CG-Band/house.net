@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.fondo{
+    background: #fff;
+}
+
+.boton-buscar{
+    padding: 12px;
+    background: #fff;
+    color: #002855;
+    border: 2px solid #002855;
+    font-weight: bold;
+    font-family: 'Saira', sans-serif;
+}
+
+.boton-buscar:hover{
+    background: #FFCC57;
+    color: #002855;
+    font-weight: bold;
+    border: 4px solid #002855;
+}
+
+/* NAV */
+.fondo-nav{
+    background: #002855;
+}
+
+.icono-hamburguesa{
+    background: #FFCC57;
+}
+
+.let-nav{
+    color: #FFCC57 !important;
+    font-weight: bold;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.barra:hover{
+    background: #FFCC57;
+    font-weight: bold;
+}
+
+/* FORMULARIO */
+.contacto{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Saira', sans-serif;
+}
+
+.container-form{
+   width: 100%;
+   max-width: 1100px;
+   margin: auto;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-gap: 50px;
+   margin-top: 90px;
+}
+
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.container-form a{
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: 600;
+}
+
+
+.container-form a i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #002855;
+}
+
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0;
+}
+
+.container-form form textarea{
+    min-height: 140px;
+    max-height: 150px;
+    margin-bottom: 20px;
+}
+
+.container-form .btn-enviar{
+    padding: 8px;
+    font-size: 16px;
+    border: 4px solid #002855;
+    outline: 0;
+    background: #fff;
+    color: #002855;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 300ms ease;
+}
+
+.container-form .btn-enviar:hover{
+    background: #FFCC57;
+    border: 4px solid #002855;
+    color: #002855;
+}
+
+.form-borde{
+    padding: 20px;
+    border: 3px solid #dbdbdb;
+    border-radius: 5px;
+}
+.nem{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* FOOTER */
+footer{
+    background: #002855;
+}
+
+.footer-title{
+    font-family: 'Saira', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.icono{
+    font-size: 50px;
+}
+
+/* RESPONSIVE PARA TABLETAS */
+@media (max-width: 1024px){
+    .container-form{
+        grid-template-columns: 1fr; 
+        text-align: center; 
+    }
+
+
+    .contacto{
+        font-size: 55px;
+    }
+
+    .container-form h2{
+        font-size: 35px;
+        margin-bottom: 35px;
+    }
+
+    .container-form a{
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .container-form a i{
+        font-size: 35px;
+    }
+
+    .form-borde{
+        margin-right: 95px;
+        margin-left: 95px;
+    }
+}
+
+/* RESPONSIVE PARA CELULARES */
+@media (max-width: 680px) {
+    .container-form{
+        grid-gap: 10px;
+    }
+
+    .form-borde{
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}

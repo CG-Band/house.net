@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.fondo{
+    background: #fff;
+}
+
+.boton-buscar{
+    padding: 12px;
+    background: #fff;
+    color: #002855;
+    border: 2px solid #002855;
+    font-weight: bold;
+    font-family: 'Saira', sans-serif;
+}
+
+.boton-buscar:hover{
+    background: #FFCC57;
+    color: #002855;
+    font-weight: bold;
+    border: 4px solid #002855;
+}
+
+/* NAV */
+.fondo-nav{
+    background: #002855;
+}
+
+.icono-hamburguesa{
+    background: #FFCC57;
+}
+
+.let-nav{
+    color: #FFCC57 !important;
+    font-weight: bold;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.barra:hover{
+    background: #FFCC57;
+    font-weight: bold;
+}
+
+
+/* CENTRO DE AYUDA */
+.titulo_ayuda{
+    margin: 30px 30px 0 30px;
+    font-size: 60px;
+    font-family: 'Saira', sans-serif;
+    font-weight: bold;
+}
+
+.contenido-info{
+    flex: 1;
+}
+
+.contenido-info h2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.info-1{
+    margin-top: 0;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.puntos{
+    margin-top: 35px;
+    font-size: 25px;
+}
+
+.puntos li{
+    margin-bottom: 50px;
+    margin-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+
+.imagen-ayuda img {
+    max-width: 100%;
+    height: auto;
+}
+
+hr{
+    width: 95%;
+    margin: auto;
+    border: 1px solid #000000;
+}
+
+
+.icons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.icon img {
+    max-width: 220px; 
+    margin-right: 30px;
+}
+
+.icon .detalles {
+    flex: 1; 
+}
+
+.texto-iconos{
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.llamar{
+    font-size: 30px;
+    font-weight: bold;
+    font-size: 'Open Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.icon button {
+    font-size: 25px; 
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.icon button:hover{
+    transform: scale(1.1);
+}
+
+.s_cliente{
+    background: #002855;
+}
+
+.s_whatsapp{
+    background: #5DA943;
+}
+
+.s_telefonica{
+    background: #3284FF;
+}
+
+/* FOOTER */
+footer{
+    background: #002855;
+}
+
+.footer-title{
+    font-family: 'Saira', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.icono{
+    font-size: 50px;
+}
+
+
+
+/* RESPONSIVE PARA TABLETAS */
+@media (max-width: 1024px) {
+    .titulo_ayuda {
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .info-1{
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .contenido-info{
+        text-align: center;
+    }
+
+    .puntos li{
+        margin-bottom: 40px;
+        font-size: 25px;
+    }
+    
+    .icons-container{
+        margin-top: 40px;
+    }
+}
+
+/* RESPONSIVE PARA CELULARES */
+@media (max-width: 680px){
+    .titulo_ayuda{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .info-1{
+        margin-left: 10px; 
+    }
+
+    .contenido-info h2{
+        font-size: 25px; 
+    }
+
+    .puntos li{
+        margin-bottom: 40px;
+        font-size: 25px; 
+    }
+
+    .icons-container{
+        margin-top: 20px; 
+    }
+
+    .texto-iconos{
+        font-size: 20px; 
+    }
+
+    .llamar{
+        font-size: 25px; 
+        margin-bottom: 10px; 
+    }
+
+    .icon button{
+        font-size: 16px; 
+        padding: 8px 10px; 
+    }
+}

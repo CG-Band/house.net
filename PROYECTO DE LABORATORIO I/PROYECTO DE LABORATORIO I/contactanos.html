@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOUSE NET</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="contactanos.css">
+    <link rel="icon" href="img/icono_logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Roboto:wght@300&family=Saira:wght@600;700&display=swap" rel="stylesheet">
+
+    
+    <script src="https://kit.fontawesome.com/c7f4d9bd9b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fondo">
+            <div class="container">
+                <!-- LOGO -->
+                <a class="navbar-brand" href="#"><img src="img/logo.jpg" height="120px" alt="Logo"></a>
+                <!-- CAMPO DE BÚSQUEDA Y BOTÓN -->
+                <form class="d-flex mx-auto">
+                    <input class="form-control" type="search" placeholder="¿Qué está buscando hoy?" aria-label="Buscar" style="width: 425px;">
+                    <button class="btn btn-outline-success boton-buscar" type="submit">BUSCAR</button>
+                </form>
+            </div>
+        </nav>
+      </header>
+      <!-- NAV -->
+      <nav class="navbar navbar-expand-lg navbar-light fondo-nav">
+        <div class="container">
+            <button class="navbar-toggler icono-hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto"> 
+                    <li class="nav-item">
+                        <a class="nav-link let-nav" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle let-nav" href="categorias.html" id="categoriasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            CATEGORÍAS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="categoriasDropdown">
+                            <li><a class="dropdown-item barra" href="categorias.html#pcGamers">Pc Gamers</a></li>
+                            <li><a class="dropdown-item barra" href="categorias.html#laptops">Laptops</a></li>
+                            <li><a class="dropdown-item barra" href="categorias.html#todo-en-uno">Todo en Uno</a></li>
+                            <li><a class="dropdown-item barra" href="categorias.html#monitores">Monitores</a></li>
+                            <li><a class="dropdown-item barra" href="categorias.html#impresoras">Impresoras</a></li>
+                            <li><a class="dropdown-item barra" href="categorias.html#accesorios">Accesorios</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link let-nav" href="servicio.html">SERVICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active let-nav" href="contactanos.html">CONTÁCTANOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+
+    <!-- FORMULARIO DE CONTACTANOS -->
+    <main>
+        <div>
+            <h1 class="contacto">CONTÁCTANOS</h1>
+        </div>
+        <div class="container-form">
+            <div>
+                <h2>DATOS DE CONTACTO</h2>
+                <a href="#"><i class="fa-solid fa-phone"></i>(01) 602 000</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>ventas@housenet.com</a>
+                <a href="#"><i class="fa-solid fa-calendar"></i>L - S: 9:00 - 21:00</a>
+            </div>
+            <form action="" class="form-borde">
+                <label for="nombre" class="nem">Nombres y Apellidos:</label>
+                <input type="text" name="nombre" placeholder="Nombres y Apellidos" class="campo" required>
+                <label for="email" class="nem">Correo Electrónico:</label>
+                <input type="email" name="email" placeholder="Correo Electrónico" class="campo" required>
+                <label for="telefono" class="nem">Número de Celular:</label>
+                <input type="tel" name="telefono" placeholder="Número" class="campo" required>
+                <label for="mensaje" class="nem">Mensaje:</label>
+                <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                <div class="d-grid">
+                    <button class="btn btn-enviar" type="button">ENVIAR</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    
+    <br>
+        
+     <!-- FOOTER -->
+  <footer>
+    <div class="container py-3">
+        <div class="text-center">
+            <p class="mb-0 footer-title">ENVÍOS A TODO EL PERÚ</p>
+            <div class="mt-0">
+                <a href="#" class="me-3 icono"><i class="fa-brands fa-square-facebook" style="color: #000000;"></i></a>     
+                <a href="#" class="me-3 icono"><i class="fa-brands fa-square-instagram" style="color: #000000;"></i></a>
+                <a href="#" class="me-3 icono"><i class="fa-brands fa-square-whatsapp" style="color: #000000;"></i></a>
+            </div>
+            <p class="text-white fs-5 mt-2">&copy;Todos los derechos reservados - 2023</p>
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOUSE NET</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icono_logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Saira:wght@500;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c7f4d9bd9b.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light fondo">
+        <div class="container">
+            <!-- LOGO -->
+            <a class="navbar-brand" href="#"><img src="img/logo.jpg" height="120px" alt="Logo"></a>
+            
+            <!-- CAMPO DE BÚSQUEDA Y BOTÓN -->
+            <form class="d-flex mx-auto">
+                <input class="form-control" type="search" placeholder="¿Qué está buscando hoy?" aria-label="Buscar" style="width: 425px;">
+                <button class="btn boton-buscar" type="submit">BUSCAR</button>
+            </form>
+        </div>
+    </nav>
+  </header>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-light fondo-nav">
+    <div class="container">
+        <button class="navbar-toggler icono-hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link active let-nav" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle let-nav" href="categorias.html" id="categoriasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        CATEGORÍAS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="categoriasDropdown">
+                        <li><a class="dropdown-item barra" href="categorias.html#pcGamers">Pc Gamers</a></li>
+                        <li><a class="dropdown-item barra" href="categorias.html#laptops">Laptops</a></li>
+                        <li><a class="dropdown-item barra" href="categorias.html#todo-en-uno">Todo en Uno</a></li>
+                        <li><a class="dropdown-item barra" href="categorias.html#monitores">Monitores</a></li>
+                        <li><a class="dropdown-item barra" href="categorias.html#impresoras">Impresoras</a></li>
+                        <li><a class="dropdown-item barra" href="categorias.html#accesorios">Accesorios</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link let-nav" href="servicio.html">SERVICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link let-nav" href="contactanos.html">CONTÁCTANOS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </nav>
+    <!-- CARRUSEL -->
+    <section class="fondo">
+      <div id="carouselExample" class="carousel slide m-3">
+        <div class="carousel-inner redondeado">
+          <div class="carousel-item active">
+            <img src="img/banner1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner3.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner5.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!--EXPLORAR PRODUCTOS Y BOTONES-->
+    <div class="contenedor d-md-flex align-items-center justify-content-between text-center mx-3 mt-5 mb-5">
+      <h2 class="mb-3 mb-md-0 subtitulo ">EXPLORAR PRODUCTOS</h2>
+      <div class="d-md-inline-flex d-flex align-items-center justify-content-center">
+          <a href="categorias.html" class="btn me-2 boton-link">NUEVO</a>
+          <a href="categorias.html" class="btn me-2 boton-link">DESTACADO</a>
+          <a href="categorias.html" class="btn boton-link">MÁS VENDIDOS</a>
+      </div>
+    </div>
+    <!-- CARD -->
+    <main class="fondo">
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="inner">
+                <img src="img/PCGamer_Inicio.jpg" alt="" class="card-img-top">
+              </div>              
+              <div class="card-body text-center">
+                <h3 class="card-title titulos">PC GAMERS</h3>
+                <a href="categorias.html#pcGamers" class="btn btn-outline-warning ver-mas-boton">VER MÁS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="inner">
+                <img src="img/Laptop_inicio.jpg" alt="" class="card-img-top">
+              </div>       
+              <div class="card-body text-center">
+                <h3 class="card-title titulos">LAPTOPS</h3>
+                <a href="categorias.html#laptops" class="btn btn-outline-warning ver-mas-boton">VER MÁS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="inner">
+                <img src="img/AllinOne_Inicio.jpg" alt="" class="card-img-top">
+              </div>    
+              <div class="card-body text-center">
+                <h3 class="card-title titulos">TODO EN UNO</h3>
+                <a href="categorias.html#todo-en-uno" class="btn btn-outline-warning ver-mas-boton">VER MÁS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="inner">
+                <img src="img/monitor_Inicio.jpg" alt="" class="card-img-top">
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title titulos">MONITORES</h3>
+                <a href="categorias.html#monitores" class="btn btn-outline-warning ver-mas-boton">VER MÁS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="inner">
+                <img src="img/Impresora_Inicio.jpg" alt="" class="card-img-top">
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title titulos">IMPRESORAS</h3>
+                <a href="categorias.html#impresoras" class="btn btn-outline-warning ver-mas-boton">VER MÁS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+              <div class="inner">
+                <img src="img/Accesorios_Inicio.jpg" alt="" class="card-img-top">
+              </div>
+              <div class="card-body text-center">
+                <h3 class="card-title titulos">ACCESORIOS</h3>
+                <a href="categorias.html#accesorios" class="btn btn-outline-warning ver-mas-boton">VER MÁS</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+      
+    <br>
+      
+    <!-- FOOTER -->
+    <footer>
+      <div class="container py-3">
+        <div class="text-center">
+            <p class="mb-0 footer-title">ENVÍOS A TODO EL PERÚ</p>
+            <div class="mt-0">
+              <a href="#" class="me-3 icono"><i class="fa-brands fa-square-facebook" style="color: #000000;"></i></a>     
+              <a href="#" class="me-3 icono"><i class="fa-brands fa-square-instagram" style="color: #000000;"></i></a>
+              <a href="#" class="me-3 icono"><i class="fa-brands fa-square-whatsapp" style="color: #000000;"></i></a>
+             </div>
+            <p class="text-white fs-5 mt-2">&copy;Todos los derechos reservados - 2023</p>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

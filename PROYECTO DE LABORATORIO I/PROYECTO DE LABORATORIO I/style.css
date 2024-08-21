@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.fondo{
+    background: #fff;
+}
+
+.boton-buscar{
+    padding: 12px;
+    background: #fff;
+    color: #002855;
+    border: 2px solid #002855;
+    font-weight: bold;
+    font-family: 'Saira', sans-serif;
+}
+
+.boton-buscar:hover{
+    background: #FFCC57;
+    color: #002855;
+    font-weight: bold;
+    border: 4px solid #002855;
+}
+
+/* NAV */
+.fondo-nav{
+    background: #002855;
+}
+
+.icono-hamburguesa{
+    background: #FFCC57;
+}
+
+.let-nav{
+    color: #FFCC57 !important;
+    font-weight: bold;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.barra:hover{
+    background: #FFCC57;
+    font-weight: bold;
+}
+
+/* CARRUSEL */
+.redondeado{
+    border-radius: 13px;
+}
+
+/* EXPLORAR PROUCTOS Y BOTONES */
+.subtitulo{
+    font-size: 45px;
+    font-family: 'Saira', sans-serif;
+    font-weight: bold;
+}
+
+.boton-link{
+    font-size: 14px;
+    padding: 10px;
+    color: #002855;
+    background: #FFCC57;
+    border: 3px solid #002855;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.boton-link:hover{
+    background: #c09e50;
+    border: 4px solid #002855;
+}
+
+/* CARD */
+.titulos{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Saira', sans-serif;
+}
+
+.fondo .card{
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.2);
+}
+
+
+.ver-mas-boton{
+    padding: 10px 20px;
+    color: #002855;
+    font-size: 20px;
+    font-weight: bold;
+    border: 4px solid #FFCC57;
+}
+
+.ver-mas-boton:hover{
+    font-weight: bold;
+    color: #002855;
+    border: 5px solid #002855;
+}
+/* FOOTER */
+footer{
+    background: #002855;
+}
+
+.footer-title{
+    font-family: 'Saira', sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.icono{
+    font-size: 50px;
+}
+
+/* RESPONSIVE PARA TABLETAS*/
+@media (max-width: 1024px){
+    .contenedor{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .boton-link{
+        margin-top: 20px;
+    }
+}
+
+
+/* RESPONSIVE PARA MÓVILES */
+@media (max-width: 680px){
+    .let-nav{
+        margin-right: 0;
+    }
+
+    .navbar-brand img{
+        height: 120px; 
+    }
+
+    .form-control{
+        width: 100%; 
+    }
+    
+    .carousel-inner img{
+        height: auto;
+    }
+
+    .contenedor{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .boton-link{
+        margin-top: 10px;
+    }
+}

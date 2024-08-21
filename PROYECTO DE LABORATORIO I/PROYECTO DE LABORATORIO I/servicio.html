@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOUSE NET</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="servicio.css">
+    <link rel="icon" href="img/icono_logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Roboto:wght@300&family=Saira:wght@600;700&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/c7f4d9bd9b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fondo">
+            <div class="container">
+                <!-- LOGO -->
+                <a class="navbar-brand" href="#"><img src="img/logo.jpg" height="120px" alt="Logo"></a>
+                
+                <!-- CAMPO DE BÚSQUEDA Y BOTÓN -->
+                <form class="d-flex mx-auto">
+                    <input class="form-control" type="search" placeholder="¿Qué está buscando hoy?" aria-label="Buscar" style="width: 425px;">
+                    <button class="btn btn-outline-success boton-buscar" type="submit">BUSCAR</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+      <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light fondo-nav">
+        <div class="container">
+            <button class="navbar-toggler icono-hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto"> 
+                    <li class="nav-item">
+                        <a class="nav-link let-nav" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle let-nav" href="categorias.html" id="categoriasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            CATEGORÍAS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="categoriasDropdown">
+                            <li><a class="dropdown-item barra" href="categorias.html#pcGamers">Pc Gamers</a></li>
+                            <li><a class="dropdown-item barra" href="categorias.html#laptops">Laptops</a></li>
+                            <li><a class="dropdown-item barra" href="categorias.html#todo-en-uno">Todo en Uno</a></li>
+                            <li><a class="dropdown-item barra" href="categorias.html#monitores">Monitores</a></li>
+                            <li><a class="dropdown-item barra" href="categorias.html#impresoras">Impresoras</a></li>
+                            <li><a class="dropdown-item barra" href="categorias.html#accesorios">Accesorios</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active let-nav" href="servicio.html">SERVICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link let-nav" href="contactanos.html">CONTÁCTANOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+      <!--CENTRO DE AYUDA-->
+    <main>
+        <h1 class="titulo_ayuda">CENTRO DE AYUDA</h1>
+        <div class="info-1">
+            <div class="contenido-info">
+                <h2>Revisa y Gestiona tus pedidos:</h2>
+                <ul class="puntos">
+                    <li>Sigue tus compras; accede al historial y estado de envío en tiempo real.</li>
+                    <li>Haz tu solicitud de devolución; sigue el progreso de tus solicitudes.</li>
+                    <li>Ingresa tus casos; asistencia personalizada para preguntas y problemas.</li>
+                    <li>Información sobre plazos de entrega; actualizaciones en tiempo real.</li>
+                    <li>Información sobre garantía; obtén detalles para una compra segura.</li>
+                    <li>Descubre más; explora novedades relacionadas con nuestros productos.</li>    
+                </ul>
+            </div>
+            
+            <div class="img-ayuda">
+                <img src="imgsv/atencion.jpg" alt="Imagen de servicio">
+            </div>
+            
+        </div>
+        
+
+        <hr>
+
+        <h2 class="titulo_ayuda">¿NECESITAS ASISTENCIA ADICIONAL?</h2>
+
+        <div class="icons-container">
+            <div class="icon">
+                <img src="imgsv/agente.jpg" alt="Icono 1">
+                <div class="detalles">
+                <p class="texto-iconos">LLÁMANOS</p>
+                <p class="llamar">(01) 602 0000</p>
+                <button type="button" class="s_cliente">LLAMAR A SERVICIO AL CLIENTE</button>
+                </div>
+            </div>
+            <div class="icon">
+                <img src="imgsv/whatsapp.jpg" alt="Icono 2">
+                <div class="detalles">
+                <p class="texto-iconos">HABLEMOS POR WHATSAPP</p>
+                <p class="llamar">+51 905 437 111</p>
+                <button type="button" class="s_whatsapp">INICIAR WHATSAPP</button>
+                </div>
+                
+            </div>
+            <div class="icon">
+                <img src="imgsv/telefono.jpg" alt="Icono 3">
+                <div class="detalles">
+                <p class="texto-iconos">COMPREMOS POR TELÉFONO</p>
+                <p class="llamar">(01) 203 7050</p>
+                <button type="button" class="s_telefonica">LLAMAR A VENTA TELEFÓNICA</button>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+
+
+      <!-- FOOTER -->
+    <footer>
+     <div class="container py-3">
+        <div class="text-center">
+            <p class="mb-0 footer-title">ENVÍOS A TODO EL PERÚ</p>
+            <div class="mt-0">
+                <a href="#" class="me-3 icono"><i class="fa-brands fa-square-facebook" style="color: #000000;"></i></a>     
+                <a href="#" class="me-3 icono"><i class="fa-brands fa-square-instagram" style="color: #000000;"></i></a>
+                <a href="#" class="me-3 icono"><i class="fa-brands fa-square-whatsapp" style="color: #000000;"></i></a>
+            </div>
+            <p class="text-white fs-5 mt-2">&copy;Todos los derechos reservados - 2023</p>
+        </div>
+     </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

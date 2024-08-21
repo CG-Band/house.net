@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOUSE NET</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="categorias.css">
+    <link rel="icon" href="img/icono_logo.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Saira:wght@500;600;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c7f4d9bd9b.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fondo">
+            <div class="container">
+                <!-- LOGO -->
+                <a class="navbar-brand" href="#"><img src="img/logo.jpg" height="120px" alt="Logo"></a>
+                
+                <!-- CAMPO DE BÚSQUEDA Y BOTÓN -->
+                <form class="d-flex mx-auto">
+                    <input class="form-control" type="search" placeholder="¿Qué está buscando hoy?" aria-label="Buscar" style="width: 425px;">
+                    <button class="btn btn-outline-success boton-buscar" type="submit">BUSCAR</button>
+                </form>
+            </div>
+        </nav>
+      </header>
+      <!-- NAV -->
+      <nav class="navbar navbar-expand-lg navbar-light fondo-nav">
+        <div class="container">
+            <button class="navbar-toggler icono-hamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link let-nav" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle let-nav" href="categorias.html" id="categoriasDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            CATEGORÍAS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="categoriasDropdown">
+                          <li><a class="dropdown-item barra" href="categorias.html#pcGamers">Pc Gamers</a></li>
+                          <li><a class="dropdown-item barra" href="categorias.html#laptops">Laptops</a></li>
+                          <li><a class="dropdown-item barra" href="categorias.html#todo-en-uno">Todo en Uno</a></li>
+                          <li><a class="dropdown-item barra" href="categorias.html#monitores">Monitores</a></li>
+                          <li><a class="dropdown-item barra" href="categorias.html#impresoras">Impresoras</a></li>
+                          <li><a class="dropdown-item barra" href="categorias.html#accesorios">Accesorios</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link let-nav" href="servicio.html">SERVICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link let-nav" href="contactanos.html">CONTÁCTANOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+
+      <!--PRODUCTOS-->
+      <div id="pcGamers" class="multiple-card-slider">
+        <h2 class="text-center mb-3 mt-5 titulos-categorias"> TODO EN PC GAMERS</h2>
+        <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner mobile-carousel">
+              <div class="carousel-item active">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Pcg1.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">PC GAMER</h5>
+                      <p class="card-text text-center descripcion-productos">Ryu Green I5 6th Gen</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 2,150</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>                 
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Pcg2.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">PC GAMER</h5>
+                      <p class="card-text text-center descripcion-productos">Haku Red Ryzen 7 5700G</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 2,190</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Pcg3.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">PC GAMER</h5>
+                      <p class="card-text text-center descripcion-productos">Ryu RGB I5 6th</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 2,261</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Pcg4.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">PC GAMER</h5>
+                      <p class="card-text text-center descripcion-productos">Haku Blue Ryzen 5 5600G</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 2,199</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Pcg5.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">PC GAMER</h5>
+                      <p class="card-text text-center descripcion-productos">Draco RGB I7 7700F 7th</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,999</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Pcg6.jpg" alt="...">
+                    </div>   
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">PC GAMER</h5>
+                      <p class="card-text text-center descripcion-productos">Haku Red Ryzen 5 4600G</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,699</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Pcg7.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">PC GAMER</h5>
+                      <p class="card-text text-center descripcion-productos">Ryu Blue I7 7th Gen</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 2,799</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Pcg8.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">PC GAMER</h5>
+                      <p class="card-text text-center descripcion-productos">Draco Green I5 11400F 11th</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 2,915</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+
+
+
+      <div id="laptops" class="multiple-card-slider">
+        <h2 class="text-center mb-3 mt-5 titulos-categorias">TODO EN LAPTOPS</h2>
+        <div id="carouselExampleControls2" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner mobile-carousel">
+              <div class="carousel-item active">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/lap1.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">LAPTOP</h5>
+                      <p class="card-text text-center descripcion-productos">ASUS 16" 4K OLED, i7-12700H, 16GB RAM</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 7,191</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/lap2.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">LAPTOP</h5>
+                      <p class="card-text text-center descripcion-productos">Lenovo IdeaPad 1, 15.6" FHD, Ryzen 3, 8GB</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,530</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/lap3.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">LAPTOP</h5>
+                      <p class="card-text text-center descripcion-productos">ASUS M6500QC, 15.6" FHD, Ryzen 5, 16GB</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 5,177</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/lap4.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">LAPTOP</h5>
+                      <p class="card-text text-center descripcion-productos">HP 240 G9, 14" HD, i5-1235U, 8GB DDR4</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,499</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/lap5.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">LAPTOP</h5>
+                      <p class="card-text text-center descripcion-productos">Dell Latitude 5490, 14" HD, i7, 8GB, 1TB</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 2,272</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/lap6.jpg" alt="...">
+                    </div>   
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">LAPTOP</h5>
+                      <p class="card-text text-center descripcion-productos">Lenovo ThinkPad T14 Gen 3, 14" IPS, i5, 8GB</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 5,881</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/lap7.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">LAPTOP</h5>
+                      <p class="card-text text-center descripcion-productos">HP 250 G9, 15.6" HD, i3-1215U, 8GB RAM</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,558</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/lap8.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">LAPTOP</h5>
+                      <p class="card-text text-center descripcion-productos">ASUS B1400CEAE, 14" FHD, i5-1135G7, 8GB</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 3,921</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div>
+     
+
+
+      <div id="todo-en-uno" class="multiple-card-slider">
+        <h2 class="text-center mb-3 mt-5 titulos-categorias">COMPUTADORAS TODO EN UNO</h2>
+        <div id="carouselExampleControls3" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner mobile-carousel">
+              <div class="carousel-item active">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/aio1.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">TODO EN UNO</h5>
+                      <p class="card-text text-center descripcion-productos">DELL OPTIPLEX 7050 ULTRASLIM 22", I5 6th</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,299</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/aio2.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">TODO EN UNO</h5>
+                      <p class="card-text text-center descripcion-productos">DELL OPTIPLEX 7050 ULTRASLIM 20", I5 6th</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,199</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/aio3.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">TODO EN UNO</h5>
+                      <p class="card-text text-center descripcion-productos">Lenovo Thinkcentre M820Z 21.5", I7 8th</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,499</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/aio4.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">TODO EN UNO</h5>
+                      <p class="card-text text-center descripcion-productos">DELL OPTIPLEX 7050 ULTRASLIM 20", I5 6th</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 999</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/aio5.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">TODO EN UNO</h5>
+                      <p class="card-text text-center descripcion-productos">HP Pro 240 G9, i5, 8GB RAM, 256GB SSD</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 3,199</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/aio6.jpg" alt="...">
+                    </div>   
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">TODO EN UNO</h5>
+                      <p class="card-text text-center descripcion-productos">Lenovo Thinkcentre M820Z 21.5" Core I7 8th</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,699</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/aio7.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">TODO EN UNO</h5>
+                      <p class="card-text text-center descripcion-productos">ProOne 240 G9 i7, 16GB RAM, 512GB SSD</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 3,799</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/aio8.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">TODO EN UNO</h5>
+                      <p class="card-text text-center descripcion-productos">Lenovo V530 24" Core I7 8th </p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,699</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div>
+
+
+
+      <div id="monitores" class="multiple-card-slider">
+        <h2 class="text-center mb-3 mt-5 titulos-categorias">MONITORES Y MONITORES GAMER</h2>
+        <div id="carouselExampleControls4" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner mobile-carousel">
+              <div class="carousel-item active">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Moni1.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">MONITOR</h5>
+                      <p class="card-text text-center descripcion-productos">Gamer curvo 23.8" Teros TE-3131, FHD, 75Hz</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 2,301</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Moni2.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">MONITOR</h5>
+                      <p class="card-text text-center descripcion-productos">Plano 27" LG, IPS, FHD, 75Hz, FreeSync</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 999</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>                      
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Moni3.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">MONITOR</h5>
+                      <p class="card-text text-center descripcion-productos">Plano 27" Samsung, IPS, FHD, VGA/HDMI</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 999</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Moni4.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">MONITOR</h5>
+                      <p class="card-text text-center descripcion-productos">Teros 23.8", IPS, FHD, HDMI, VGA, VESA</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 699</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Moni5.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">MONITOR</h5>
+                      <p class="card-text text-center descripcion-productos">AOC C27G2Z, 27", VA, FHD, 240Hz, 0.5ms</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,049</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Moni6.jpg" alt="...">
+                    </div>   
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">MONITOR</h5>
+                      <p class="card-text text-center descripcion-productos">Gamer 27" Acer, IPS, FHD, 1ms, 144Hz</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,699</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Moni7.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">MONITOR</h5>
+                      <p class="card-text text-center descripcion-productos">Plano 29" LG, IPS, FHD, 5ms, 75Hz</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,299</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/Moni8.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">MONITOR</h5>
+                      <p class="card-text text-center descripcion-productos">Plano 24" Samsung, FHD, 75Hz, HDMI</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 800</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div>
+
+
+
+      <div id="impresoras" class="multiple-card-slider">
+        <h2 class="text-center mb-3 mt-5 titulos-categorias">IMPRESORAS Y MULTIFUNCIONALES</h2>
+        <div id="carouselExampleControls5" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner mobile-carousel">
+              <div class="carousel-item active">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/imp1.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">IMPRESORA</h5>
+                      <p class="card-text text-center descripcion-productos">Multifuncional Epson EcoTank L4260, Dúplex, Inalámbrica, con tanques de tinta</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,149</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/imp2.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">IMPRESORA</h5>
+                      <p class="card-text text-center descripcion-productos">Multifuncional Canon PIXMA G4110, Inalámbrica,tanques de tinta integrados</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,069</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/imp3.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">IMPRESORA</h5>
+                      <p class="card-text text-center descripcion-productos">Multifuncional HP Smart Tank 720, Dúplex automático, tinta continua</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 949</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/imp4.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">IMPRESORA</h5>
+                      <p class="card-text text-center descripcion-productos">Multifuncional Epson Ecotank L5290, inalámbrica con tanques de tinta</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,099</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/imp5.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">IMPRESORA</h5>
+                      <p class="card-text text-center descripcion-productos">Multifuncional Brother DCP-T226, Alámbrica, Inyección de tinta con tanques</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 749</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/imp6.jpg" alt="...">
+                    </div>   
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">IMPRESORA</h5>
+                      <p class="card-text text-center descripcion-productos">Multifuncional Hp 2775, Wifi, cartucho a color, blanco</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 499</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/imp7.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">IMPRESORA</h5>
+                      <p class="card-text text-center descripcion-productos">Multifuncional Epson L5590 Wifi, inalámbrica, con tanques de tinta</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,299</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/imp8.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">IMPRESORA</h5>
+                      <p class="card-text text-center descripcion-productos">Multifuncional Brother DCPT420W, inalámbrica, con tanques de tinta</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 849</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls5" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div>
+
+
+
+      <div id="accesorios" class="multiple-card-slider">
+        <h2 class="text-center mb-3 mt-5 titulos-categorias">TODO EN ACCESORIOS</h2>
+        <div id="carouselExampleControls6" class="carousel" data-bs-ride="carousel">
+            <div class="carousel-inner mobile-carousel">
+              <div class="carousel-item active">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/acc1.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">ACCESORIO</h5>
+                      <p class="card-text text-center descripcion-productos">Cooler para Notebook TE7020N, hasta 15.6", 2 ventiladores 12cm</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 41,10</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/acc2.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">ACCESORIO</h5>
+                      <p class="card-text text-center descripcion-productos">Cámara Web Logitech C930E FHD, USB, micrófono, cable 1.5m</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 401</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/acc3.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">ACCESORIO</h5>
+                      <p class="card-text text-center descripcion-productos">Kit alámbrico Logitech MK120 teclado y mouse, conexión usb</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 99,10</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/acc4.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">ACCESORIO</h5>
+                      <p class="card-text text-center descripcion-productos">Audífonos Logitech H111, micrófono, estéreo, cable 2.35m, negro</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 99,10</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/acc5.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">ACCESORIO</h5>
+                      <p class="card-text text-center descripcion-productos">Hub Teraware USB de 4 puertos, 3 x USB 2.0, 1 x UDB 3.0</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 39,10</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/acc6.jpg" alt="...">
+                    </div>   
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">ACCESORIO</h5>
+                      <p class="card-text text-center descripcion-productos">Fuente de Poder Themaltake Smart RGB 700W, certificación 80PLUS</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 361,11</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/acc7.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">ACCESORIO</h5>
+                      <p class="card-text text-center descripcion-productos">Placa Madre Gigabyte B550M-K AM4, DDR4, ranuras PCIe 4.0</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 449</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="imgcat/acc8.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title text-center fw-bolder subtitulos-productos">ACCESORIO</h5>
+                      <p class="card-text text-center descripcion-productos">Tarjeta de Video Asrock Intel ARC A770 8GB, GDDR6, 256-bit</p>
+                      <div class="d-flex justify-content-between">
+                        <p class="precio-productos">S/ 1,299</p>
+                        <a href="contactanos.html" class="btn boton-comprar">Comprar</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls6" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div>
+     
+
+
+
+
+      <!-- FOOTER -->
+  <footer>
+    <div class="container py-3">
+        <div class="text-center">
+            <p class="mb-0 footer-title">ENVÍOS A TODO EL PERÚ</p>
+            <div class="mt-0">
+                <a href="#" class="me-3 icono"><i class="fa-brands fa-square-facebook" style="color: #000000;"></i></a>     
+                <a href="#" class="me-3 icono"><i class="fa-brands fa-square-instagram" style="color: #000000;"></i></a>
+                <a href="#" class="me-3 icono"><i class="fa-brands fa-square-whatsapp" style="color: #000000;"></i></a>
+            </div>
+            <p class="text-white fs-5 mt-2">&copy;Todos los derechos reservados - 2023</p>
+        </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
